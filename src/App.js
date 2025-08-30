@@ -11,6 +11,9 @@ function App() {
         I'm a software developer with a passion for building web applications.
        </p>
        </header>
+       <section>
+        <h3>About Me</h3>
+       </section>
     </div>
   );
 }
