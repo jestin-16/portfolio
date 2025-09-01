@@ -15,11 +15,19 @@ function App() {
     //     <h3>About Me</h3>
     //    </section>
     // </div>
-    <div className=" bg-blue-500 h-screen App">
-      <header className="App-header">
-        <h2 className="text-2xl text-grey-800 text-bold">Software Developer</h2>
-      </header>
-    </div>
+    
+    <header className="w-screen h-10 bg-blue-200">
+<div className='flex justify-between items-center px-4 h-full'>
+  <div className="text-black font-fold">Software Developer</div>
+  <nav>
+    <ul className="flex space-x-4">
+      <li >about</li>
+      <li>services</li>
+      <li>contact</li>
+    </ul>
+  </nav>
+</div>
+    </header>
   );
 }
 
