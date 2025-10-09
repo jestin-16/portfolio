@@ -26,7 +26,7 @@ function App() {
       <div className="flex flex-col items-center justify-center h-full">
         <p className="text-4xl ">Hello, I'm Jestin </p>
         <p className="text-4xl ">currently under development .Thanks for checking out my portfolio.
-        I'm a software developer with a passion for building web applications. </p>
+        I'm a software developer . </p>
         
       </div>
     </div>
