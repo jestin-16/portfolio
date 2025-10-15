@@ -248,7 +248,7 @@ const App = () => {
             <a href="#" className="transition duration-200 text-slate-400 hover:text-indigo-400" title="GitHub">
               <GitHubIcon className="w-6 h-6" />
             </a>
-            <a href="www.linkedin.com/in/jestin-shaji" target="new" className="transition duration-200 text-slate-400 hover:text-indigo-400" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/jestin-shaji" target="_blank" rel="noopener noreferrer" className="transition duration-200 text-slate-400 hover:text-indigo-400" title="LinkedIn">
               <LinkedInIcon className="w-6 h-6" />
             </a>
           </div>
