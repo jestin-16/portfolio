@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 // Inline Icons (lucide-react equivalents using simple SVG for guaranteed functionality)
 
 // Icon for the Skills section - Code
