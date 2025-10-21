@@ -37,7 +37,7 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
-  { title: "E-commerce Platform Redesign", description: "Built a scalable and responsive e-commerce frontend using React and Redux for state management, resulting in a 30% speed increase." },
+  { title: "Attendance Management system", description: "Lab attendance management system " },
   { title: "Real-time Chat Application", description: "Developed a full-stack real-time chat service using Node.js, Express, and WebSockets. Implemented secure user authentication." },
   { title: "Data Visualization Dashboard", description: "Created an interactive dashboard using D3.js and React to visualize large datasets. Optimized rendering performance for complex charts." },
 ];
@@ -206,7 +206,7 @@ const App = () => {
                 <p className="flex-grow mb-4 text-slate-400">{project.description}</p>
                 <div className="flex mt-4 space-x-4">
                   <a
-                    href="#" // Placeholder link
+                    href="https://attendancesystem-delta.vercel.app/" // Placeholder link
                     className="flex items-center text-sm font-medium text-indigo-400 transition duration-200 hover:text-indigo-300"
                   >
                     <GitHubIcon className="w-4 h-4 mr-1" /> Code
@@ -232,7 +232,7 @@ const App = () => {
           
           <div className="flex justify-center">
              <a
-              href="mailto:jestin.developer@example.com" // Update with your real email
+              href="mailto:jestinshaji777@gmail.com" // Update with your real email
               className="flex items-center px-8 py-3 font-semibold text-white transition duration-300 ease-in-out bg-indigo-600 rounded-lg shadow-xl hover:bg-indigo-700"
             >
               <MailIcon className="w-5 h-5 mr-2" /> Say Hello
