@@ -37,9 +37,9 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
-  { title: "Attendance Management system", description: "Lab attendance management system " },
-  { title: "Real-time Chat Application", description: "Developed a full-stack real-time chat service using Node.js, Express, and WebSockets. Implemented secure user authentication." },
-  { title: "Data Visualization Dashboard", description: "Created an interactive dashboard using D3.js and React to visualize large datasets. Optimized rendering performance for complex charts." },
+  { title: "Attendance Management system", description: "Lab attendance management system ", link: "https://attendancesystem-delta.vercel.app/" },
+  { title: "Data Visualization Dashboard", description: "Created an interactive dashboard using D3.js and React to visualize large datasets. Optimized rendering performance for complex charts.", link: "#" },
+  { title: "Magic Paints", description: "An AI-powered web application that generates unique digital paintings based on user inputs and preferences.", link: "#" },
 ];
 
 // --- Utility Functions ---
@@ -206,13 +206,13 @@ const App = () => {
                 <p className="flex-grow mb-4 text-slate-400">{project.description}</p>
                 <div className="flex mt-4 space-x-4">
                   <a
-                    href="https://attendancesystem-delta.vercel.app/" // Placeholder link
+                    href=""// Placeholder link
                     className="flex items-center text-sm font-medium text-indigo-400 transition duration-200 hover:text-indigo-300"
                   >
                     <GitHubIcon className="w-4 h-4 mr-1" /> Code
                   </a>
                   <a
-                    href="#" // Placeholder link
+                    href={project.link}  // Placeholder link
                     className="text-sm font-medium text-indigo-400 transition duration-200 hover:text-indigo-300"
                   >
                     Live Demo &rarr;
